@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tic Tac Toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cambay:wght@700&family=DM+Serif+Display&family=Inter:wght@600&family=Noto+Sans+Tangsa:wght@600&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="game-over-window">
+  </div>
+  <div class="container">
+    <div class="gameboard">
+      <div class="board-row br1">
+        <div class="board-colm colm1 sq" id="00"></div>
+        <div class="board-colm colm2 sq" id="01"></div>
+        <div class="board-colm sq" id="02"></div>
+      </div>
+      <div class="board-row br2">
+        <div class="board-colm colm1 sq" id="10"></div>
+        <div class="board-colm colm2 sq" id="11"></div>
+        <div class="board-colm sq" id="12"></div>
+      </div>
+      <div class="board-row br3">
+        <div class="board-colm colm1 sq" id="20"></div>
+        <div class="board-colm colm2 sq" id="21"></div>
+        <div class="board-colm sq" id="22"></div>
+      </div>
+    </div>
+    <div class="scoreboard">
+      <div class="playerx">
+      <h4>Player(X)</h4>
+      <p class="scorex">0</p>
+      </div>
+      <div class="draw-div">
+        <h4>Tie</h4>
+        <p class="draw">0</p>
+      </div>
+      <div class="playero">
+        <h4>Player(O)</h4>
+        <p class="scoreo">0</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
